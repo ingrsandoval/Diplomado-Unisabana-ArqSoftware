@@ -7,6 +7,7 @@ namespace EstructuradeArchivos2
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("======= ## Patron de diseño ESTRUCTURAL - COMPOSITE ## =======");
             // 1. Crear la estructura de archivos y carpetas
             var root = new Folder("C:");
             var documents = new Folder("Documentos");
